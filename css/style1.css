@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+/*For part 1 */
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid black;
+}
+img {
+	width: 25vw;
+	height: 25vw;
+}
+
+/*Overrides the style.css gradient background and header text */
+/*Purple green complimentary */
+
+html {
+	background-image: linear-gradient(180deg, rgba(255,255,255,1),rgba(0,255,0,0.5))
+}
+
+header {
+	background-image: linear-gradient(180deg, rgba(255,0,255,0.3), rgba(255,255,255,0.3));
+	padding: 5px;
+	margin: 10px;
+	border-radius: 2em;
+	border: 2px solid;
+}

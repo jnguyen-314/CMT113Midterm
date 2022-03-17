@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Table designing */
+
+table {
+	border:3px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	border: 2px solid rbga(0,0,0,0);
+	text-align: center;
+	width: 50vw;
+}
+
+
+
+/* Button Styling */
+button {
+	background: linear-gradient(0deg, rgba(255,160,160,1), rgba(255,255,255,1));
+	font-weight: 700;
+	border: 5px outset rgba(120,120,255,1);
+	width: 25vw;
+	height : 8vw;
+	margin: 5px 0px 5px 0px;
+}
+
+button:hover {
+	transition: 2s;
+	border-radius: 10vw;
+	border: 5px inset rgba(120,255,120,1);
+}
+
+
+/*Ski Navigation Bar styling */
+nav.skiNav {
+	margin-top: 20px;
+	background-image: linear-gradient(90deg, rgba(0,255,0,1), rgba(0,255,255,1));	
+}
+
+
+p.pDescription {
+	background-image: linear-gradient(90deg, rgba(180,255,180,1), rgba(180,255,255,1));
+	border: 3px solid black;
+	margin-top: 20px;
+	padding: 10px;
+	height: 10vw;
+}
+
+span.bu {
+	font-weight: 700;
+	text-decoration: underline;
+}

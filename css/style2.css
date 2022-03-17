@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+/*For styling part 2 of the midterm */
+
+/*font awesome for money icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+
+/*Styling the form portion*/
+form {
+	display:inline-block;
+	vertical-align: top;
+	font-size: 12pt;
+	padding: 5px;
+	width: 100%;
+	background-color: rgba(0,255,0,0.3);
+	border: 5px outset #88f;
+}
+
+
+/*Styling table */
+table {
+	display: block;
+	width: 100%;
+	margin: 5px;
+	border: 5px outset #88f;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	width:50vw;
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+}
+
+th {
+	font-size: 16pt;
+	background-color: rgba(255,200,200,1);
+}
+
+tr:nth-child(odd) td{
+	background-color: rgba(200,255,200,1);
+}
+tr:nth-child(even) td{
+	background-color: rgba(255,200,255,1);
+}
