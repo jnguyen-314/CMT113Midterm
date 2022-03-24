@@ -40,6 +40,13 @@ document.getElementsByTagName('body')[0].innerHTML = docWrite;
 
 docLayOut();
 
+//New Edits for Responsive Website
+var smallMedia = document.createElement('link');
+smallMedia.rel = 'stylesheet';
+smallMedia.href = 'css/stylesmall.css';
+smallMedia.media = 'screen and (max-width: 600px)';
+
+document.querySelector('head').append(smallMedia);
 
 
 
