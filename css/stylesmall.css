@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+/*For Small Screens */
+
+aside {
+	width: 100%;
+}
+
+main {
+	width: 100%;
+	margin:20px auto;
+}
+
+form {
+	max-width: 96.5%;
+}
+
+table {
+	margin: 10px auto;
+}
+/* Part 3 */
+section div img {
+	display: block;
+	width: 95%;
+	height: 95%;
+}
+
+/*part 4 */
+button {
+	width: 30vw;
+	height: 16vw;
+}
