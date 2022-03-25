@@ -70,7 +70,7 @@ var nightMenu = `
 	<span class="bold underline">Steak</span>: Two pound steak with a medley of vegetable. Steak can be medium rare, well done, or raw. &emsp; $16.95 <br><br>
 	<span class="bold underline">Fish and Chips</span>: Battered Cod that is fried in vegetable oil as well with fries, also deep fried in vegetable oil. &emsp; $10.95 <br><br>
 	<span class="bold underline">Clam Chowder</span>: A soup containing clams and bread. Can be styled as New England or Manhatten. &emsp; $12.95 <br><br>
-	<span class="bold underline">Pizza</span>: Pizza topped with cheese and tomato and choice of topping. Topping includes extra cheese, pepperoni, vegetable, or steak. emsp; $9.95 <br><br>
+	<span class="bold underline">Pizza</span>: Pizza topped with cheese and tomato and choice of topping. Topping includes extra cheese, pepperoni, vegetable, or steak. &emsp; $9.95 <br><br>
 	<span class="bold underline">Philly Steak Sandwich</span>: A sub stuffed with steak and cheese. &emsp; $11.95
 </p>
 <div>
