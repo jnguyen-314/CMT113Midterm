@@ -44,7 +44,7 @@ docLayOut();
 var smallMedia = document.createElement('link');
 smallMedia.rel = 'stylesheet';
 smallMedia.href = 'css/stylesmall.css';
-smallMedia.media = 'screen and (max-width: 600px)';
+smallMedia.media = 'screen and (max-device-width: 600px), screen and (max-width:600px)';
 
 document.querySelector('head').append(smallMedia);
 
