@@ -18,6 +18,10 @@ form {
 table {
 	margin: 10px auto;
 }
+
+li {
+	padding: 20px;
+}
 /* Part 3 */
 section div img {
 	display: block;
